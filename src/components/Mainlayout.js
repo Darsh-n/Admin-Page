@@ -10,6 +10,8 @@ import {RiProductHuntLine} from 'react-icons/ri';
 import {BsDatabaseFillAdd, BsCart2, BsBellFill} from 'react-icons/bs'
 import {MdOutlinePeopleAlt, MdOutlineContactPhone} from 'react-icons/md';
 import {TiThListOutline} from 'react-icons/ti';
+import {FcSettings} from 'react-icons/fc';
+import {CgNotes} from 'react-icons/cg';
 import {SiBrandfolder, SiBloglovin} from 'react-icons/si';
 import {BiCategory, BiHorizontalRight,BiHorizontalLeft } from 'react-icons/bi'
 import { Navigate, useNavigate, Outlet } from 'react-router-dom';
@@ -113,6 +115,18 @@ const Mainlayout = () => {
                             key: 'enqueries',
                             icon: <MdOutlineContactPhone className='fs-4'/>,
                             label: 'Enqueries',
+                        },
+
+                        {
+                            key: 'setting',
+                            icon: <FcSettings className='fs-4'/>,
+                            label: 'Setting',
+                        },
+
+                        {
+                            key: 'notes',
+                            icon: <CgNotes className='fs-4'/>,
+                            label: 'Notes',
                         },
                     ]}
                 />
